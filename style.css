@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+img{
+    width:100%;
+}
 
 body{
     font-family: 'poppins', sans-serif;
@@ -15,6 +18,13 @@ h1{
 h1 span{
     color:orange;
 }
+section{
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
 header{
     background:url('./images/top-banner.png') center/cover fixed no-repeat;
     display: flex;
@@ -24,12 +34,11 @@ header{
 
     
 }
-.header-left{
+.header-left, .dream_left {
     width:50%;
 }
-.header-right{
+.header-right, .dream_right{
     width:50%;
-    text-align: center;
 }
 .header-right img{
     width:100%;
@@ -49,4 +58,11 @@ button{
     font-size:15px;
     font-weight: bold;
 
+}
+#dream_big{
+    display: flex;
+    padding:5% 8%;
+}
+.dream_right{
+    padding-left:50px;
 }
